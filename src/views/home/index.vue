@@ -49,6 +49,7 @@ export default Vue.extend({
           }
         }
       }
+      this.score = 10;
       this.clear();
     },
     clear(): void {
@@ -143,6 +144,13 @@ export default Vue.extend({
       }
       this.score -= 1;
       this.clear();
+      if (this.score <= 0) {
+        if (confirm('分数用光了哦~~')) {
+          this.init();
+        } else {
+          this.init();
+        }
+      }
     },
     fillSquare(): void {
       const chars: string[] = ['A', 'S', 'D', 'F', 'G', 'H', 'J'];
