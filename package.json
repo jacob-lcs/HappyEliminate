@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10",
+    "vue": "^2.6.12",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^3.0.3"
@@ -19,6 +19,6 @@
     "@vue/cli-plugin-typescript": "^3.12.0",
     "@vue/cli-service": "^3.12.0",
     "typescript": "^3.4.3",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.12"
   }
 }
